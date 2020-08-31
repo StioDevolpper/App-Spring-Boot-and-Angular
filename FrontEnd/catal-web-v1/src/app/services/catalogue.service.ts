@@ -7,7 +7,8 @@ import {Product} from '../model/product.model';
   providedIn: 'root'
 })
 export class CatalogueService {
-  //Host provider
+  
+  //Set host provider
   public host: string = 'http://localhost:8080';
 
   constructor(private httpClient: HttpClient) {
