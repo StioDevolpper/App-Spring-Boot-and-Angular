@@ -1,0 +1,23 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Produits
+          <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a routerLink="/produits">chercher</a></li>
+          <li><a routerLink="/new-product">Aajouter</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Notre agence</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<router-outlet>
+
+</router-outlet>
